@@ -19,9 +19,10 @@
                         <id>test-chrome</id>
                         <phase>test</phase>
                         <configuration>
-                            <specsDir>specs</specsDir>
-                            <inParallel>true</inParallel>
                             <env>chrome</env>
+                            <inParallel>true</inParallel>
+                            <nodes>4</nodes>
+                            <specsDir>specs</specsDir>
                         </configuration>
                         <goals>
                             <goal>execute</goal>
@@ -31,9 +32,10 @@
                         <id>test-firefox</id>
                         <phase>test</phase>
                         <configuration>
-                            <specsDir>specs</specsDir>
-                            <inParallel>true</inParallel>
                             <env>firefox</env>
+                            <inParallel>true</inParallel>
+                            <nodes>4</nodes>
+                            <specsDir>specs</specsDir>
                         </configuration>
                         <goals>
                             <goal>execute</goal>
@@ -43,9 +45,10 @@
                         <id>test-ie</id>
                         <phase>test</phase>
                         <configuration>
-                            <specsDir>specs</specsDir>
-                            <inParallel>true</inParallel>
                             <env>ie</env>
+                            <inParallel>true</inParallel>
+                            <nodes>4</nodes>
+                            <specsDir>specs</specsDir>
                         </configuration>
                         <goals>
                             <goal>execute</goal>
